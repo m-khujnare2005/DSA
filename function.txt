@@ -1,0 +1,27 @@
+Function : mutliple time same out print cause redundancy so to manage this we function
+         
+         void : function does print anything
+         parameter: syntax:returnType FuncName(type p1, type p2){
+
+                                                                 }
+        
+
+Function in Memory:
+        -function are stored in stack memory.
+        -when main () function called by compiler is take space in memory to do the task.
+        |              |
+        |Function 2    |   first this function execute and then it will remove from memory 
+        |______________|
+        |function 1    |   then this execute and remove
+        |______________|
+        |   main ()    |   then final output will print in this main memory
+        |______________|
+          stack memory 
+        
+        -return statement can print with value
+
+
+Pass by Value:
+        -copy of argument is passed to function
+        -example --    main        sum
+                        x,y        a,b       then value a=x and b=y 
