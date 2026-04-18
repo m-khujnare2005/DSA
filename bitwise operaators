@@ -1,0 +1,50 @@
+Bitwise operators-
+
+bitwise AND - &
+bitwise OR - |
+bitwise XOR (^)- (exclusive OR ) - same bit =0          1^1=0
+                                diffenert bits = 1      0^1=1
+bitwise left shift(<<) - shifting bit toward left       10<<2-> 1010<<2=101000=40
+bitwise right shift(>>) - shifting bit toward right     10>>2-> 1010>>2=10=20
+
+
+
+
+
+Operator Precendence-
+                    priority
+
+!,+,-               first (right to left)
+*,/,%               second (left to right)
++,-                 third(left to right)
+<,<=,>=,>           fourth(left to right)
+==.!=               fifth(left to right)
+&&                  sixth(left to right)
+||                  seventh(left to right)
+=                   last(right to left)
+
+
+
+
+
+Scope - used to check variable forr accessibility and usability
+        local scope - locally define (accessiblity inside the loops, conditions)
+            ex-if{
+                int x;
+            }
+            cout<<x; // error x is not accessible outside the if block
+        global scope - globally define (accessible globally inside file)
+            ex- int x; // global variable
+                int main(){
+                    cout<<x; // accessible globally
+                }
+
+
+
+Data types modifiers - used to modify the data type
+                    signed - can store both positive and negative values
+                    unsigned - can store only positive values
+                    long - can store larger values than the regular data types
+                    short - can store smaller values than the regular data types
+                    long long - can store even larger values than long data type
+                    long double - can store larger values than double data type

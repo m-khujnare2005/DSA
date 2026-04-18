@@ -1,0 +1,55 @@
+Conversion->
+
+
+Decimal to Binary : LCM
+             remainder
+ex- 2|42        0   ^
+    2|21        1   |
+    2|10        0   |
+    2|5         1   |
+    2|2         0   |   
+    2|1         1   |   
+     |0         0   |      
+(42)10=(101010)2
+
+
+
+
+Binary to Decimal: multipy by 2^power
+
+ex- 1*2^5 + 0*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 
+    32+0+8+0+2+0
+    42
+(101010)2 = (42)10
+
+
+
+
+Common Number Conversion:
+0=0
+1=1
+2=10
+3=11
+4=100
+5=101
+6=110
+7=111
+8=1000
+9=1001
+10=1010
+
+
+
+
+One's Compliment
+ex -  1 0 1 0 1 
+1's - 0 1 0 1 0
+
+
+
+
+
+Two's Compliment
+ex- 0  1  0  1  0
+    msb        lsb       if msb =0 -> positive 
+                            msb =1 -> negative 
